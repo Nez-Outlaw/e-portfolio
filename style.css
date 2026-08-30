@@ -102,6 +102,11 @@ nav {
   text-align: center;
 }
 
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me__picture--mask {
   width: 100px;
   height: 100px;
@@ -133,4 +138,14 @@ nav {
   color: #242424;
   text-decoration: none;
   padding: 0 16px;
+}
+
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.about-me__img {
+  width: 100%;
 }
